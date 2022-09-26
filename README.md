@@ -14,9 +14,10 @@ cd arch-vm/
 Run install and setup scripts:
 ```bash
 chmod +x scripts/*
-
-# These need to be run in the arch-vm/ directory.
 ./scripts/install.sh
+reboot
+
+# After rebooting, run these commands
 sudo ./scripts/setup.sh
 ```
 
