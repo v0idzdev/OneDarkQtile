@@ -14,4 +14,5 @@ yay -S qtile \
        papirus-icon-theme \
        nitrogen \
        pamixer \
-       xdg-user-dirs
+       xdg-user-dirs \
+       ttf-font-awesome
