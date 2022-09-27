@@ -8,6 +8,7 @@ rm -rf yay-bin
 yay -S qtile \
        alacritty \
        rofi \
+       rofi-power-menu \
        lxappearance \
        cantarell-fonts \
        nerd-fonts-fira-code \
