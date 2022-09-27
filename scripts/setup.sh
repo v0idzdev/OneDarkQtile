@@ -7,14 +7,14 @@ cp -a config/alacritty/ ~/.config/alacritty
 # Setup GTK themes
 pacman -S git
 git clone https://github.com/UnnatShaneshwar/AtomOneDarkTheme
-cp -r AtomOneDarkTheme/ /usr/share/themes/
+sudo cp -r AtomOneDarkTheme/ /usr/share/themes/
 rm -rf AtomOneDarkTheme  # Clean up
 
 # Install rofi power menu
 git clone https://github.com/jluttine/rofi-power-menu
-cp rofi-power-menu/ /usr/bin/
+sudo cp rofi-power-menu/ /usr/bin/
 rm -rf rofi-power-menu
-cp themes/one-dark.rasi /usr/share/rofi/themes/
+sudo cp themes/one-dark.rasi /usr/share/rofi/themes/
 
 # Setup wallpapers
 cp wallpapers/one-dark-triangles.png ~/Pictures/
