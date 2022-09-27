@@ -1,8 +1,8 @@
 # Setup Qtile config
-cp -a config/qtile/ ~/.config/qtile/
+cp -r config/qtile ~/.config/
 
 # Setup Alacritty config
-cp -a config/alacritty/ ~/.config/alacritty
+cp -r config/alacritty/ ~/.config/
 
 # Setup GTK themes
 sudo pacman -S git
