@@ -15,4 +15,5 @@ yay -S qtile \
        nitrogen \
        pamixer \
        xdg-user-dirs \
-       ttf-font-awesome
+       ttf-font-awesome \
+       python-pip
