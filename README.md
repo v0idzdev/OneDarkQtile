@@ -18,7 +18,7 @@ chmod +x scripts/*
 reboot
 
 # After rebooting, run these commands
-sudo ./scripts/setup.sh
+./scripts/setup.sh
 ```
 
 Source Qtile config and set GTK theme:
