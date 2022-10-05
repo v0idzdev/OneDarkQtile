@@ -19,6 +19,7 @@ Run the installation script and reboot:
 chmod +x scripts/*
 ./scripts/install.sh
 reboot
+```
 
 Extract configuration files to the correct directories:
 ```
