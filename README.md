@@ -1,7 +1,8 @@
 ### Images
 
-![One Dark Desktop](https://user-images.githubusercontent.com/88111643/192329066-6b61a791-077f-4386-b4b6-c18fd04bc20b.PNG)
-![One Dark Neofetch](https://user-images.githubusercontent.com/88111643/192329087-9ff74022-787d-4e4d-bb7b-6a4577c8c5e4.PNG)
+![image](https://user-images.githubusercontent.com/88111643/194048257-1dc9f24f-692e-4ddb-82d6-467dcc1c8261.png)
+![image](https://user-images.githubusercontent.com/88111643/194048177-c3a443a5-2efb-4c6e-9676-1fe2b896f37d.png)
+![image](https://user-images.githubusercontent.com/88111643/194048225-3c37b142-e30a-407c-8f7a-5e8b92476b04.png)
 
 ### Installation
 
