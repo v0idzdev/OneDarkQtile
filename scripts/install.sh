@@ -17,4 +17,5 @@ yay -S qtile \
        pamixer \
        xdg-user-dirs \
        ttf-font-awesome \
-       python-pip
+       python-pip \
+       picom
