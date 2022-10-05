@@ -6,19 +6,22 @@
 
 ### Installation
 
+You should have a working installation of Arch linux installed with a display manager.
+
 Clone the repo:
 ```bash
 git clone https://github.com/matthewflegg/arch-vm
 cd arch-vm/
 ```
 
-Run install and setup scripts:
+Run the installation script and reboot:
 ```bash
 chmod +x scripts/*
 ./scripts/install.sh
 reboot
 
-# After rebooting, run these commands
+Extract configuration files to the correct directories:
+```
 ./scripts/setup.sh
 ```
 
