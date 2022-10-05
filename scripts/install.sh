@@ -8,6 +8,7 @@ rm -rf yay-bin
 yay -S qtile \
        alacritty \
        rofi \
+       rofi-power-menu \
        lxappearance \
        cantarell-fonts \
        nerd-fonts-fira-code \
@@ -15,4 +16,6 @@ yay -S qtile \
        nitrogen \
        pamixer \
        xdg-user-dirs \
-       ttf-font-awesome
+       ttf-font-awesome \
+       python-pip \
+       picom

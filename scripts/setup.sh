@@ -1,23 +1,21 @@
 # Setup Qtile config
-cp -a config/qtile/ ~/.config/qtile/
+cp -r config/qtile/ ~/.config/
+sudo -H pip install psutil
 
 # Setup Alacritty config
-cp -a config/alacritty/ ~/.config/alacritty
+cp -r config/alacritty/ ~/.config/
+
+# Setup picom config
+cp -r config/picom/ ~/.config/
 
 # Setup GTK themes
-pacman -S git
-cd ~
+sudo pacman -S git
 git clone https://github.com/UnnatShaneshwar/AtomOneDarkTheme
-cp -r AtomOneDarkTheme/ /usr/share/themes/
+sudo cp -r AtomOneDarkTheme/ /usr/share/themes/
 rm -rf AtomOneDarkTheme  # Clean up
 
 # Install rofi power menu
-cd ~
-git clone https://github.com/jluttine/rofi-power-menu
-cp rofi-power-menu/ /usr/bin/
-rm -rf rofi-power-menu
-cd -
-cp themes/one-dark.rasi /usr/share/rofi/themes/
+sudo cp themes/one-dark.rasi /usr/share/rofi/themes/
 
 # Setup wallpapers
 cp wallpapers/one-dark-triangles.png ~/Pictures/
