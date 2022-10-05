@@ -1,9 +1,12 @@
 # Setup Qtile config
-cp -r config/qtile ~/.config/
+cp -r config/qtile/ ~/.config/
 sudo -H pip install psutil
 
 # Setup Alacritty config
 cp -r config/alacritty/ ~/.config/
+
+# Setup picom config
+cp -r config/picom/ ~/.config/
 
 # Setup GTK themes
 sudo pacman -S git
