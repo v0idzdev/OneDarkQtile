@@ -10,8 +10,8 @@ You should have a working installation of Arch linux installed with a display ma
 
 Clone the repo:
 ```bash
-git clone https://github.com/matthewflegg/arch-vm
-cd arch-vm/
+git clone https://github.com/v0idzdev/OneDarkQtile
+cd OneDarkQtile/
 ```
 
 Run the installation script and reboot:
